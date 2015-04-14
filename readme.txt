@@ -2,7 +2,7 @@
 
 Contributors: Rija Rajaonah
 Donate link: https://www.elance.com/s/cnhk/
-Tags: user, visit, record, logged in, french
+Tags: user, visit, record, logged in
 Requires at least: 3.8
 Tested up to: 4.1.1
 Stable tag: 0.8
