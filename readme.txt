@@ -2,14 +2,14 @@
 
 Contributors: Rija Rajaonah
 Donate link: https://www.elance.com/s/cnhk/
-Tags: user, visit, record, logged in, french
+Tags: user, visit, multisite, record, logged in
 Requires at least: 3.8
-Tested up to: 4.2.1
-Stable tag: 0.8.2
+Tested up to: 4.2.2
+Stable tag: 1.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-The plugin keeps record on each user last visit time using "is_user_logged_in()", "wp_get_current_user()" and user meta data.
+The plugin keeps record on each user last visit time using logged-in status, user ID and user meta data. Multisite compatible.
 
 == Description ==
 
@@ -61,6 +61,17 @@ Records are set only once the plugin is installed and set up. The ***"General re
 After the first installation, there is no record yet until the user visit the site (and passes through all exclusion conditions).
 
 == Changelog ==
+
+= 1.0 =
+* minor UI improvement
+* admin js en css versionning
+
+= 0.8.2
+* fix a bug in non-multisite created by precedent version
+
+= 0.8.1 =
+
+* fixed some multisite issues.
 
 = 0.8 =
 
